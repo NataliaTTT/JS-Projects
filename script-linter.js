@@ -63,3 +63,6 @@ console.log(`The sentence count: ${sentence}.`); //The sentence count: 12.
 console.log(
   `The word "really" appears ${resultArray1.length} times, the word "very" appears ${resultArray2.length} times,the word "basically" appears ${resultArray3.length} times.`
 ); //The word "really" appears 2 times, the word "very" appears 5 times,the word "basically" appears 1 times.
+
+console.log(betterWords.join(" "));
+
