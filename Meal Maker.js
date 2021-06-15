@@ -71,4 +71,4 @@ menu.addDishToCourse("mains", "Low Carb Turkey-Stuffed Peppers", 22);
 menu.addDishToCourse("desserts", "Tiramisu", 11);
 menu.addDishToCourse("desserts", "Chocolate mousse", 9);
 menu.addDishToCourse("desserts", "Ice-cream", 8);
-const meal = menu.generateRandomMeal();
+const meal = menu.generateRandomMeal();//Your meal will consist of Fish and chips for an appetizer, Low Carb Turkey-Stuffed Peppers as the entree, and Ice-cream for dessert. The total price for this meal will be 45$.
