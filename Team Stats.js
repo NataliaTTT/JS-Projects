@@ -36,12 +36,12 @@ const team = {
   ],
   get players() {
     return {
-      players: this._players, //6
+      players: this._players, 
     };
   },
   get games() {
     return {
-      games: this._games, //6
+      games: this._games, 
     };
   },
   addPlayer(firstName, lastName, age) {
@@ -73,3 +73,5 @@ team.addGame("Bears", 20, 60);
 team.addGame("Aliens", 55, 37);
 team.addGame("Flowers", 40, 40);
 console.log(team);
+
+
